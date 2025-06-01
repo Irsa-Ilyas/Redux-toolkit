@@ -1,0 +1,101 @@
+/* App.css */
+.app-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f3f4f6;
+  padding: 20px;
+}
+
+.container {
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #1f2937;
+}
+
+h5 {
+  color: #6b7280;
+  margin-bottom: 25px;
+}
+
+.quantity {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.control-btn {
+  background-color: #3b82f6;
+  color: white;
+  font-size: 20px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.control-btn:hover {
+  background-color: #2563eb;
+}
+
+.count-display {
+  font-size: 18px;
+  color: #111827;
+}
+
+.reset-btn {
+  background-color: #ef4444;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.reset-btn:hover {
+  background-color: #dc2626;
+}
+
+.custom-amount {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.custom-amount input {
+  padding: 10px;
+  width: 120px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 16px;
+}
+
+.inc-amount-btn {
+  background-color: #10b981;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.inc-amount-btn:hover {
+  background-color: #059669;
+}
